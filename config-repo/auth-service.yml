@@ -28,3 +28,9 @@ spring:
       enabled: true
       settings:
         web-allow-others: true
+
+logging:
+  level:
+    org:
+      springframework:
+        security: debug
