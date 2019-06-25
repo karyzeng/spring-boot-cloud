@@ -30,3 +30,4 @@ zuul:
     svcb-service:
       path: /svcb/**
       sensitiveHeaders:
+  sensitiveHeaders: Cookie,Set-Cookie
